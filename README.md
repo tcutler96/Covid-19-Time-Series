@@ -1,6 +1,5 @@
 # Covid-19 Time Series
-
-We retrieve Covid-19 data including global confirmed, death and recovered cases ([JHU CSSE](https://github.com/CSSEGISandData/COVID-19)) and UK deaths by age and region ([ONS](https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/deaths/datasets/weeklyprovisionalfiguresondeathsregisteredinenglandandwales)), clean it to our liking and then perform various analysis and visualisations.
+This project looks at how Covid-19 cases changed over time. It pulls data from two main sources. The first is the global confirmed, death, and recovered figures from the [JHU CSSE](https://github.com/CSSEGISandData/COVID-19) dataset. The second is the UK death records by age and region from the [ONS](https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/deaths/datasets/weeklyprovisionalfiguresondeathsregisteredinenglandandwales). We clean the data so that the dates, locations and case numbers are consistent, then group them into useful time series. Once the data is in a good state, we produced a set of charts that show how the virus spread, how case numbers changed, and how different areas and age groups were affected.
 
 ## US Confirmed Daily Cases
 By plotting US confirmed daily cases on a semi logarithmic plot, we can see that there was a short period of exponential growth from about 2nd March to 22nd March, which is when stay-at-orders were beginning to be announced in the US. It seems that the lockdown procedures were successful in significantly reducing transmission numbers.
